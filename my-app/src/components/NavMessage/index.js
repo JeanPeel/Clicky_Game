@@ -10,7 +10,7 @@ class NavMessage extends Component {
     };
 
     componentDidUpdate({ score, topScore }, prevState) {
-        cost newState =  { animating: tue };
+        cost newState =  { animating: true };
 
         if (score === 0 && topScore === 0) {
             newState.message = "";
